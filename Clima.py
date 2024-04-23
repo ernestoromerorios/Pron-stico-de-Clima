@@ -197,7 +197,7 @@ img = typeWeather(descripcion.lower(),noche)
 actualizarHora()
 
 #Carga la imagen y ajusta su tamaño
-imagen = Image.open(img)
+imagen = Image.open('images/'+img)
 ancho = 200  #Modifica el ancho deseado
 alto = 200  #Modifica el alto deseado
 imagenRedimensionada = imagen.resize((ancho, alto), Image.ANTIALIAS)
