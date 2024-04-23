@@ -42,7 +42,7 @@ def getWeather(latitud,longitud):
 
     #Define la URL de la API y tu clave de API
     url = "https://api.openweathermap.org/data/2.5/weather"
-    apiKey = "4a9ff99aac0ff85f516f746e554c030d"  #Reemplaza "tu_clave_de_api_aqui" con tu clave de API
+    apiKey = "tu_clave_de_api_aqui"  #Reemplaza "tu_clave_de_api_aqui" con tu clave de API
 
     latitud,longitud,ciudad = getLoc()
 
