@@ -44,8 +44,6 @@ def getWeather(latitud,longitud):
     url = "https://api.openweathermap.org/data/2.5/weather"
     apiKey = "tu_clave_de_api_aqui"  #Reemplaza "tu_clave_de_api_aqui" con tu clave de API
 
-    latitud,longitud,ciudad = getLoc()
-
     #Define los parámetros de la solicitud, como la ubicación y el formato de respuesta
     params = {
         
@@ -205,7 +203,7 @@ imagenTk = ImageTk.PhotoImage(imagenRedimensionada)
 
 #Crea un widget Label para mostrar la imagen
 labelImagen = tk.Label(ventana, image=imagenTk)
-labelImagen.place(x=400,y=30)
+labelImagen.place(x=470,y=30)
 
 #Ejecuta el bucle principal de la ventana
 ventana.mainloop()
